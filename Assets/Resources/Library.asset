@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1b58c6d16e8a58408cb10be2e1f7db3, type: 3}
+  m_Name: Library
+  m_EditorClassIdentifier: 
+  Entities:
+  - _name: Pelican
+    _meshID: 0
+    _materialID: 0
+    _baseAttributes:
+      _movementSpeed: 0
+      _rotationSpeed: 0
+    _spawnPosition: {x: 0, y: 0}
+    _currentPosition: {x: 0, y: 0}
+  - _name: CargoShip
+    _meshID: 1
+    _materialID: 1
+    _baseAttributes:
+      _movementSpeed: 0
+      _rotationSpeed: 0
+    _spawnPosition: {x: 0, y: 0}
+    _currentPosition: {x: 0, y: 0}
+  - _name: Wraith
+    _meshID: 2
+    _materialID: 2
+    _baseAttributes:
+      _movementSpeed: 0
+      _rotationSpeed: 0
+    _spawnPosition: {x: 0, y: 0}
+    _currentPosition: {x: 0, y: 0}
+  Meshes:
+  - {fileID: 5060444177187149915, guid: b56c55b0840b5fa4db03d54443eca391, type: 3}
+  - {fileID: -3531946766418785785, guid: 9cd1f7ee8de73e948ae88e1ebacbab74, type: 3}
+  - {fileID: 2954858793080512207, guid: d88e172a08f1ca04ca57c18b1357c169, type: 3}
+  Materials:
+  - {fileID: 2100000, guid: 6b56cd5c9f3fb914887529eae4214837, type: 2}
+  - {fileID: 2100000, guid: 37954fed35e51024b916d114a57c3531, type: 2}
+  - {fileID: 2100000, guid: 720e36fba73bba0469932b1c2f841bbc, type: 2}
+  - {fileID: 2100000, guid: a739123fc16e2464eaab5828df481522, type: 2}
+  - {fileID: 2100000, guid: 3b84b01fea64e364983c646974ba7e25, type: 2}
+  - {fileID: 2100000, guid: a4ecd7d443c93ae4880d7599b17e8f01, type: 2}
